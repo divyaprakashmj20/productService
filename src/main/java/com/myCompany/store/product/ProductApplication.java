@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProductApplication {
 
 	public static void main(String[] args) {
+		System.out.println("test hook");
 		SpringApplication.run(ProductApplication.class, args);
 	}
 
